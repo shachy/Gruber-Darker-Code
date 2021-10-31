@@ -1,0 +1,21 @@
+{
+    "name": "gruber-darker",
+    "displayName": "Gruber-Darker",
+    "description": "An implementation of the Gruber Darker theme for emacs",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.61.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "gruber",
+                "uiTheme": "vs-dark",
+                "path": "./themes/gruber-color-theme.json"
+            }
+        ]
+    }
+}
